@@ -1,0 +1,84 @@
+@font-face {
+  font-family: Norse-Bold;
+  src: url(/Norse-Bold.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.main_container {
+  display: flex;
+  color: black;
+}
+
+.main_container_left_box {
+  /* background-color: aqua; */
+  height: 100vh;
+  width: 35vw;
+}
+
+.main_container_left_box img {
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.main_container_right_box {
+  height: 100vh;
+  width: 65vw;
+}
+
+.main_container_right_box_firstSection {
+  background-color: rgb(250, 243, 243);
+  height: 35%;
+padding: 10% 3%;
+}
+
+.first_section_desc1 {
+  margin-bottom: 5%;
+}
+
+.main_container_right_box_middleSection {
+  /* background-color: aqua; */
+  height: 30%;
+  padding: 2% 3%;
+}
+
+.main_container_right_box_thirdSection {
+  background-color: rgb(250, 243, 243);
+  height: 35%;
+  padding: 2% 3%;
+}
+
+.button_create_account {
+  height: 40px;
+  width: 200px;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #596d48;
+  border-radius: 8px;
+  margin-bottom: 2%;
+}
+
+#login {
+  color: #596d48;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
