@@ -10,12 +10,14 @@
   <body>
     <!-- Hello World -->
     <div class="main_container">
+
       <div class="main_container_left_box">
-        <img
+        <img id="background"
           src="/halie-west-25xggax4bSA-unsplash.jpg"
           alt="Unsplash Background Image"
         />
       </div>
+
       <div class="main_container_right_box">
         <div class="main_container_right_box_firstSection">
           <p class="first_section_desc1">
@@ -27,9 +29,50 @@
           </p>
           <p class="first_section_desc2">You <i>know</i> you want to.</p>
         </div>
+
         <div class="main_container_right_box_middleSection">
-          <h4>Let's do this!</h4>
+          <div class="middle_section_first_box">
+            <h4>Let's do this!</h4>
+            <form action="">
+              <label for="first_name"><p class="first_name">FIRST NAME</p></label>
+              <!-- <br /> -->
+              <input type="text" id="first_name" />
+
+              <br />
+
+              <label for="email"><p class="email">EMAIL</p></label>
+              <!-- <br /> -->
+              <input type="email" id="email" />
+
+              <br />
+
+              <label for="password"><p class="password">PASSWORD</p></label>
+              <!-- <br /> -->
+              <input type="password" id="password" />
+            </form>
+          </div>
+
+          <div class="middle_section_second_box">
+            <form action="">
+              <label for="last_name"><p class="last_name">LAST NAME</p></label>
+              <!-- <br /> -->
+              <input type="text" id="last_name" />
+
+              <br />
+
+              <label for="number"><p class="number">PHONE NUMBER</p></label>
+              <!-- <br /> -->
+              <input type="" id="number" />
+
+              <br />
+
+              <label for="confirm_password"><p class="confirm_password">CONFIRM PASSWORD</p></label>
+              <!-- <br /> -->
+              <input type="password" id="confirm_password" />
+            </form>
+          </div>
         </div>
+
         <div class="main_container_right_box_thirdSection">
           <div class="button_create_account">Create Account</div>
           <p class="thirdSection_desc">
@@ -37,7 +80,9 @@
           </p>
         </div>
       </div>
+      
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>

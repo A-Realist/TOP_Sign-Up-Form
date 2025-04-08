@@ -25,6 +25,7 @@ body {
   /* background-color: aqua; */
   height: 100vh;
   width: 35vw;
+  color: red;
 }
 
 .main_container_left_box img {
@@ -32,6 +33,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
 
 .main_container_right_box {
   height: 100vh;
@@ -41,7 +43,7 @@ body {
 .main_container_right_box_firstSection {
   background-color: rgb(250, 243, 243);
   height: 35%;
-padding: 10% 3%;
+  padding: 10% 3%;
 }
 
 .first_section_desc1 {
@@ -52,6 +54,38 @@ padding: 10% 3%;
   /* background-color: aqua; */
   height: 30%;
   padding: 2% 3%;
+}
+
+.main_container_right_box_middleSection {
+  /* background-color: red; */
+  display: flex;
+}
+
+.middle_section_first_box {
+  /* background-color: blue; */
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+.middle_section_second_box {
+  /* background-color: green; */
+  height: 100%;
+  width: 70%;
+  flex-direction: column;
+  line-height: 1.5;
+  padding-top: 25px;
+}
+
+.first_name,
+.email,
+.password,
+.last_name,
+.number,
+.confirm_password {
+  font-size: 0.7em;
 }
 
 .main_container_right_box_thirdSection {
